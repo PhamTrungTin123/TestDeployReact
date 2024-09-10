@@ -1,0 +1,10 @@
+.labeladd {
+    text-wrap: none;
+    width: 100px;
+}
+.LabelUpload{
+    display: flex;
+}
+#UploadImg{
+    margin-left: 15px;
+}

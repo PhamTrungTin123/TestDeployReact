@@ -1,0 +1,752 @@
+.maincontainer{
+    height: 100%;
+    margin: 0;
+    background: #7F7FD5;
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+    /*background: black;*/
+    /*color: white;*/
+}
+
+.chat{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.card{
+    height: 550px;
+    border-radius: 15px !important;
+    background-color: rgba(0,0,0,0.4) !important;
+}
+.contacts_body{
+    padding:  0.75rem 0 !important;
+    overflow-y: auto;
+    white-space: nowrap;
+    margin-top:-10px;
+}
+.msg_card_body{
+    overflow-y: auto;
+}
+.card-header{
+    border-radius: 15px 15px 0 0 !important;
+    border-bottom: 0 !important;
+}
+ /*Thêm lớp CSS*/
+   .recalledMessage {
+       background-color: rgba(176, 175, 175, 0.8) !important;
+       font-style: italic;
+       color: white;
+   }
+
+.cor{
+    background: #89afd7 !important;
+}
+.card-footer{
+    border-radius: 0 0 15px 15px !important;
+    border-top: 0 !important;
+}
+.container{
+    align-content: center;
+}
+.search{
+    border-radius: 15px 0 0 15px !important;
+    background-color: rgba(0,0,0,0.3) !important;
+    border:0 !important;
+    color:white !important;
+}
+.search:focus{
+    box-shadow:none !important;
+    outline:0px !important;
+}
+.type_msg{
+    background-color: rgba(0,0,0,0.3) !important;
+    border:0 !important;
+    color:white !important;
+    height: 60px !important;
+    overflow-y: auto;
+}
+.type_msg:focus{
+    box-shadow:none !important;
+    outline:0px !important;
+}
+.attach_btn{
+    background-color: rgba(0,0,0,0.3) !important;
+    border:0 !important;
+    color: white !important;
+    cursor: pointer;
+}
+.send_btn{
+    border-radius: 0 15px 15px 0 !important;
+    background-color: rgba(0,0,0,0.3) !important;
+    border:0 !important;
+    color: white !important;
+    cursor: pointer;
+}
+.search_btn{
+    border-radius: 0 15px 15px 0 !important;
+    background-color: rgba(0,0,0,0.3) !important;
+    border:0 !important;
+    color: white !important;
+    cursor: pointer;
+}
+.contacts{
+    list-style: none;
+    padding: 0;
+}
+.contacts li{
+    width: 100% !important;
+    padding: 5px 10px;
+    margin-bottom: 15px !important;
+}
+.active{
+    background-color: rgba(0,0,0,0.3);
+}
+.user_img{
+    height: 70px;
+    width: 70px;
+    border:1.5px solid #f5f6fa;
+
+}
+.user_img_msg{
+    height: 40px;
+    width: 40px;
+    border:1.5px solid #f5f6fa;
+
+}
+.img_cont{
+    position: relative;
+    height: 70px;
+    width: 70px;
+}
+.img_cont_msg{
+    height: 40px;
+    width: 40px;
+}
+.online_icon{
+    position: absolute;
+    height: 15px;
+    width:15px;
+    /*background-color: #4cd137;*/
+    border-radius: 50%;
+    bottom: 0.2em;
+    right: 0.4em;
+    border:1.5px solid white;
+}
+
+.online {
+    background-color: #28a745; /* Màu xanh cho trạng thái online */
+}
+
+.offline{
+    background-color: #c23616 ;
+}
+.user_info{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 15px;
+}
+.user_info span{
+    font-size: 20px;
+    color: white;
+}
+.user_info p{
+    font-size: 12px;
+    color: rgba(255,255,255,0.6);
+}
+.video_cam{
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.video_cam span{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.msg_cotainer{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    border-radius: 25px;
+    background-color: #82ccdd;
+    padding: 10px;
+    position: relative;
+    max-width: fit-content;
+
+    width: 370px;
+}
+.msg_cotainer_send{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    border-radius: 25px;
+    background-color: #78e08f;
+    padding: 10px;
+    position: relative;
+    max-width: fit-content;
+    width: 370px;
+
+
+
+}
+.msg_time{
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    color: rgba(255,255,255,0.5);
+    font-size: 10px;
+    width: 100px;
+}
+.msg_time_send{
+    position: absolute;
+    right:0;
+    bottom: -15px;
+    color: rgba(255,255,255,0.5);
+    font-size: 10px;
+    width: 100px;
+}
+.msg_head{
+    position: relative;
+}
+#action_menu_btn{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+.action_menu{
+    z-index: 1;
+    position: absolute;
+    padding: 15px 0;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border-radius: 15px;
+    top: 30px;
+    right: 15px;
+    display: none;
+}
+.action_menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.action_menu ul li{
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 5px;
+}
+.action_menu ul li i{
+    padding-right: 10px;
+
+}
+.action_menu ul li:hover{
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.2);
+}
+@media(max-width: 576px){
+    .contacts_card{
+        margin-bottom: 15px !important;
+    }
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #7F7FD5;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #5454b6;
+}
+.button_plus {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    cursor: pointer;
+    border: 2px solid #095776;
+
+    /* Mittig */
+    top: 50%;
+    left: 50%;
+}
+
+.button_plus:after {
+    content: '';
+    position: absolute;
+    transform: translate(-50%, -50%);
+    height: 4px;
+    width: 50%;
+    background: #095776;
+    top: 50%;
+    left: 50%;
+}
+
+.button_plus:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #095776;
+    height: 50%;
+    width: 4px;
+}
+
+.button_plus:hover:before,
+.button_plus:hover:after {
+    background: #fff;
+    transition: 0.2s;
+}
+
+.button_plus:hover {
+    background-color: #095776;
+    transition: 0.2s;
+}
+.cbox{
+    left: 80px;
+    z-index: 99;
+    top:10px;
+}
+#action_menu_btn {
+    cursor: pointer;
+}
+
+.action_menu {
+    display: none;
+    position: absolute;
+    background-color: #86A8E7;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    z-index: 1000;
+    top: 35px; /* Điều chỉnh vị trí theo ý muốn của bạn */
+    right: 0;
+}
+
+.action_menu.open {
+    display: block;
+}
+
+.action_menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+}
+
+.action_menu li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.action_menu li:hover {
+    background-color: #f0f0f0;
+}
+.fa-regular.fa-sun{
+    font-size: 20px;
+    color: #f5f56d;
+
+}
+.fa-regular.fa-moon{
+    font-size: 20px;
+
+}
+input.form-control.search:focus {
+    outline: none;
+}
+.dark-mode .maincontainer{
+    background: #404345; /* Darker background color */
+    color: #c5c5c5; /* Light text color */
+}
+
+.dark-mode .card{
+    background-color: #404345 !important; /* Even darker card background */
+}
+
+.dark-mode .search,
+.dark-mode .type_msg,
+.dark-mode .attach_btn,
+.dark-mode .send_btn,
+.dark-mode .search_btn {
+    background-color: #404345 !important; /* Even darker input/button background */
+    color: white;
+}
+
+.dark-mode .msg_cotainer,
+.dark-mode .msg_cotainer_send {
+    background-color: #17202a; /* Even darker message container background */
+    color: white;
+}
+
+.dark-mode .msg_time,
+.dark-mode .msg_time_send {
+    color: rgba(255,255,255,0.5); /* Darker message time color */
+}
+
+.dark-mode .action_menu {
+    background-color: #34495E; /* Darker action menu background */
+}
+
+.dark-mode .action_menu li:hover {
+    background-color: #2C3E50; /* Dark hover background */
+}
+
+.dark-mode .fa-regular.fa-sun {
+    color: #FFD700; /* Sun icon color */
+}
+
+.dark-mode .fa-regular.fa-moon {
+    color: #FFD700; /* Moon icon color */
+}
+.dark-mode .col-md-4.col-xl-3.chat{
+    background: #464749;
+}
+.dark-mode .col-md-8.col-xl-6.chat{
+    background: #464749;
+}
+.dark-mode .card-footer{
+    background: #464749;
+}
+.dark-mode ::-webkit-scrollbar {
+    background-color: #333; /* Màu nền của thanh cuộn */
+}
+
+.dark-mode ::-webkit-scrollbar-thumb {
+    background: #666; /* Màu của thanh cuộn */
+}
+
+.dark-mode ::-webkit-scrollbar-thumb:hover {
+    background: #888; /* Màu của thanh cuộn khi di chuột qua */
+}
+.sender {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 10px;
+    width: 100px;
+    margin-right: -99px;
+    margin-top: -19px;/* Added margin-bottom for spacing */
+}
+.d-flex.mb-4.justify-content-start{
+    padding-bottom: 12px;
+}
+#chatcenter{
+    height: 650px;
+}
+.d-flex.bd-highlight{
+    height: 80px;
+}
+.typechat{
+    margin-bottom: 0px;
+}
+.tabs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tabs input[type="radio"] {
+    display: none;
+}
+
+.tabs label {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    margin: 0 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.tabs label.active, .tabs label:hover {
+    background-color: #e0e0e0;
+}
+
+.tab-content {
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.tab-content section {
+    display: none;
+}
+
+.tab-content section:target {
+    display: block;
+}
+.tab-pane.fade.show.active{
+    background-color: white;
+}
+.nav.nav-tabs.mb-3{
+    margin-bottom: 0px !important;
+    margin-left:30px;
+}
+.tabs-wrapper {
+    position: relative;
+    width: 75%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 10px;
+    margin-left:30px;
+    margin-top:10px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.tab-label {
+    flex: 1;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    font-size: 17px;
+    transition: all 0.3s ease;
+    color: #17a2b8;
+}
+
+.tab-label:hover {
+    background: rgba(23, 162, 184, 0.3);
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"]:checked + .tab-label {
+    color: #fff;
+}
+
+input[type="radio"]:checked + .tab-label + .tab-slider {
+    background: #17a2b8;
+}
+
+.tab-slider {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+    border-radius: 10px;
+    background: #17a2b8;
+    transition: all 0.3s ease;
+}
+
+#roomTab:checked ~ .tab-slider {
+    left: 50%;
+}
+/* Modal Overlay */
+
+/* Thêm CSS cho các biểu tượng */
+/*.message-icons {*/
+/*    position: absolute;*/
+/*    right: 10px;*/
+/*    top: 50%;*/
+/*    transform: translateY(-50%);*/
+/*    display: flex;*/
+/*    gap: 10px;*/
+/*}*/
+
+/*.message-icons i {*/
+/*    cursor: pointer;*/
+/*    font-size: 16px;*/
+/*}*/
+
+.message-icons {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    gap: 10px;
+    color: #312121;
+    opacity: 0.7;
+}
+
+.message-icons i {
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.message-icons.left {
+    left: -120px; /* Điều chỉnh khoảng cách từ trái */
+}
+
+.message-icons.right {
+    right: -70px; /* Điều chỉnh khoảng cách từ phải */
+}
+.col-md-4.col-xl-3.chat{
+    margin-left: -220px;
+    /*height: 684px;*/
+    /*max-height: 684px;*/
+}
+#chatleft{
+}
+
+#chatcenter{
+    margin-left: -12px;
+    height: 684px;
+    width:850px;
+}
+.card.mb-sm-3.mb-md-0.contacts_card{
+    height: 684px;
+}
+
+
+/*.message {*/
+/*    position: relative;*/
+/*}*/
+
+/*.message-icons {*/
+/*    position: absolute;*/
+/*    top: 50%;*/
+/*    transform: translateY(-50%);*/
+/*    display: flex;*/
+/*    gap: 5px;*/
+/*    opacity: 0;*/
+/*    transition: opacity 0.2s;*/
+/*}*/
+
+/*.message:hover .message-icons {*/
+/*    opacity: 1;*/
+/*}*/
+
+/*.message-icons.left {*/
+/*    left: -40px;*/
+/*}*/
+
+/*.message-icons.right {*/
+/*    right: -40px;*/
+/*}*/
+
+/*.message-icons i {*/
+/*    cursor: pointer;*/
+/*    font-size: 16px;*/
+/*}*/
+
+
+.message-reactions {
+    position: absolute;
+    top: 34px;
+    left: 70%;
+    z-index: 1000;
+}
+.card-footer {
+    transition: height 0.3s ease; /* Thêm hiệu ứng chuyển đổi mượt */
+}
+
+.content-editable {
+    width: 100%;
+    min-height: 60px;
+    max-height: 200px;
+    overflow-y: auto;
+    padding: 5px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    position: relative; /* Đảm bảo phần tử được định vị tương đối */
+    display: flex;
+    flex-direction: column;
+}
+
+.content-editable.with-file {
+    padding-bottom: 150px; /* Thêm thuộc tính padding-bottom khi có file */
+}
+
+.editable-content {
+    margin-top: 10px; /* Đảm bảo khoảng cách giữa phần tử selected-file và nội dung văn bản */
+    flex-grow: 1;
+}
+
+.selected-file {
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1;
+    border-radius: 15px;
+    width: 150px;
+    margin-bottom: 10px; /* Thêm khoảng cách giữa phần tên tệp và các phần tử khác */
+    pointer-events: none; /* Không cho phép chỉnh sửa */
+}
+
+.selected-file span {
+    margin-right: 10px;
+    font-size: 14px;
+    max-width: 150px; /* Giới hạn độ rộng của tên tệp */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color:black;
+}
+
+.selected-file button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: red;
+    margin-left: 10px;
+    pointer-events: all; /* Cho phép nhấn nút xóa */
+}
+.message-content {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.message-line {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.file-url {
+    margin-bottom: 8px;
+}
+
+.file-url img {
+    vertical-align: middle;
+}
+.card-footer .selected-files {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-footer .selected-file {
+    align-items: center;
+    background: #f1f1f1;
+    border-radius: 8px;
+    max-width: fit-content;
+    margin-right: 8px; /* Adjust spacing between file items */
+}
+
+.card-footer .selected-file span {
+    margin-right: 8px;
+}
+
+.card-footer .selected-file button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #ff0000;
+}
+/*Thêm lớp CSS*/
+.recalledMessage {
+    background-color: rgba(176, 175, 175, 0.8) !important;
+    font-style: italic;
+    color: white;
+}
+.cor{
+    background: #89afd7 !important;
+}

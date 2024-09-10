@@ -1,0 +1,131 @@
+#body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f8fe;
+    margin: 0;
+}
+
+.logout-container {
+    text-align: center;
+}
+
+/*.logo {*/
+/*    width: 50px;*/
+/*    margin-bottom: 20px;*/
+/*}*/
+
+.logout-card {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+}
+
+.logout-icon {
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.text-logout {
+    font-size: 24px;
+    color: #333;
+    margin: 10px;
+}
+
+.text-thank {
+    font-size: 16px;
+    color: #666;
+    width: 400px;
+    margin-bottom: 30px;
+}
+
+#login-again-btn {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+.link{
+    color: white;
+}
+
+#login-again-btn:hover,.link:hover {
+    background-color: #357abd;
+    color: white;
+= = = = = = = #body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f8fe;
+    margin: 0;
+}
+
+    .logout-container {
+        text-align: center;
+    }
+
+    /*.logo {*/
+    /*    width: 50px;*/
+    /*    margin-bottom: 20px;*/
+    /*}*/
+
+    .logout-card {
+        background-color: white;
+        padding: 30px 40px;
+        border-radius: 15px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        max-width: 600px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .logout-icon {
+        width: 80px;
+        margin-bottom: 20px;
+    }
+
+    .text-logout {
+        font-size: 24px;
+        color: #333;
+        margin: 10px;
+    }
+
+    .text-thank {
+        font-size: 16px;
+        color: #666;
+        width: 400px;
+        margin-bottom: 30px;
+    }
+
+    #login-again-btn {
+        background-color: #4a90e2;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+    }
+
+    .link {
+        color: white;
+    }
+
+    #login-again-btn:hover, .link:hover {
+        background-color: #357abd;
+        color: white;
+    }
+}

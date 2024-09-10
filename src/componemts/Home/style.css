@@ -1,0 +1,64 @@
+.home-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f7f7f7;
+}
+
+/* Ensure this CSS is specific to Home component */
+.container-home {
+    background: linear-gradient(45deg, #d38312, #a83279);
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column; /* Change to column for better alignment */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+    color: white;
+    text-align: center; /* Center the text */
+}
+
+.cookie-home {
+    margin-bottom: 20px; /* Adjust spacing to bring the cookie closer to the text */
+}
+
+.text-home {
+    text-align: center; /* Center the text */
+}
+
+.text-home h2 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.text-home p {
+    margin: 10px 0;
+}
+
+.butn {
+    display: flex;
+    gap: 20px; /* Increase gap between buttons */
+    justify-content: center; /* Center the buttons */
+    margin-top: 20px; /* Create space between the buttons and text */
+}
+
+.button {
+    padding: 10px 20px;
+    background: white;
+    border: none;
+    border-radius: 5px;
+    color: #a83279;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.button:hover {
+    background: #d38312;
+    color: white;
+}
