@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/TestDeployReact/static/css/main.eb5e8b5d.css",
+    "main.js": "/TestDeployReact/static/js/main.d8129a20.js",
+    "static/js/453.ed3810f9.chunk.js": "/TestDeployReact/static/js/453.ed3810f9.chunk.js",
+    "static/media/fa-solid-900.ttf": "/TestDeployReact/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
+    "static/media/fa-brands-400.ttf": "/TestDeployReact/static/media/fa-brands-400.60127e352b7a11f7f1bc.ttf",
+    "static/media/fa-solid-900.woff2": "/TestDeployReact/static/media/fa-solid-900.4d986b00ff9ca3828fbd.woff2",
+    "static/media/fa-brands-400.woff2": "/TestDeployReact/static/media/fa-brands-400.455ea818179b4def0c43.woff2",
+    "static/media/fa-regular-400.ttf": "/TestDeployReact/static/media/fa-regular-400.eb91f7b948a42799f678.ttf",
+    "static/media/audio-x-mp3-playlist.256x253.png": "/TestDeployReact/static/media/audio-x-mp3-playlist.256x253.0033aa86d89937cae4f9.png",
+    "static/media/fa-regular-400.woff2": "/TestDeployReact/static/media/fa-regular-400.21cb8f55d8e0c5b89751.woff2",
+    "static/media/zip.188x256.png": "/TestDeployReact/static/media/zip.188x256.f6a76456780073ada5d6.png",
+    "static/media/file-type-word.256x239.png": "/TestDeployReact/static/media/file-type-word.256x239.749db4175664f3c7d6e4.png",
+    "static/media/file-type-excel.256x239.png": "/TestDeployReact/static/media/file-type-excel.256x239.e6d5521035539cb67af3.png",
+    "static/media/java-original-wordmark.139x256.png": "/TestDeployReact/static/media/java-original-wordmark.139x256.6ec78042806f8d4ec603.png",
+    "static/media/fa-v4compatibility.ttf": "/TestDeployReact/static/media/fa-v4compatibility.c8e090db312b0bea2aa2.ttf",
+    "static/media/sql-database-sql-azure.245x256.png": "/TestDeployReact/static/media/sql-database-sql-azure.245x256.09ae1025eaef891fbde0.png",
+    "static/media/fa-v4compatibility.woff2": "/TestDeployReact/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
+    "index.html": "/TestDeployReact/index.html",
+    "main.eb5e8b5d.css.map": "/TestDeployReact/static/css/main.eb5e8b5d.css.map",
+    "main.d8129a20.js.map": "/TestDeployReact/static/js/main.d8129a20.js.map",
+    "453.ed3810f9.chunk.js.map": "/TestDeployReact/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb5e8b5d.css",
+    "static/js/main.d8129a20.js"
+  ]
+}
